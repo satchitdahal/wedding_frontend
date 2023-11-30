@@ -1,0 +1,40 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cf4747;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    color: white;
+    /* margin-top: 0; */
+
+}
+
+.navbar div {
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar div a {
+    font-size: 1.2em;
+    /* Adjust as needed */
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+    width: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    align-self: auto;
+}
+
+.nav-item:hover {
+    background-color: #6d2323;
+}
+
+.nav-item_contacts {
+    margin-left: auto;
+}
