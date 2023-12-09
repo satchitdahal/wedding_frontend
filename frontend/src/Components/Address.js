@@ -117,7 +117,7 @@ const Address = () => {
                     console.error('Failed to delete address. Status:', response.status);
                 }
             } catch (error) {
-                console.error('Error deleting address:', error);
+                console.error('Error deleting addresss:', error);
             }
         }
     };
