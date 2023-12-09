@@ -22,7 +22,7 @@ const Address = () => {
 
     const fetchAddresses = async () => {
         try {
-            const response = await fetch('http://localhost:5000/address');
+            const response = await fetch('https://ishanisudur-api.onrender.com/address');
             const data = await response.json();
             setAddresses(data);
             setLoading(false);
@@ -43,7 +43,7 @@ const Address = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:5000/address', {
+            const response = await fetch('https://ishanisudur-api.onrender.com/address', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -82,7 +82,7 @@ const Address = () => {
 
     const handleEditSubmit = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/address/${editingAddress.address_id}`, {
+            const response = await fetch(`https://ishanisudur-api.onrender.com/address/${editingAddress.address_id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -107,7 +107,7 @@ const Address = () => {
 
         if (confirmDelete) {
             try {
-                const response = await fetch(`http://localhost:5000/address/${address_id}`, {
+                const response = await fetch(`https://ishanisudur-api.onrender.com/address/${address_id}`, {
                     method: 'DELETE',
                 });
 
