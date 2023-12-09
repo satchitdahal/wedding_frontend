@@ -17,7 +17,7 @@ const Contacts = () => {
 
     const fetchContacts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/contacts');
+            const response = await fetch('https://ishanisudur-api.onrender.com/contacts');
             const data = await response.json();
             setContacts(data);
             setLoading(false);
@@ -36,7 +36,7 @@ const Contacts = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:5000/contacts', {
+            const response = await fetch('https://ishanisudur-api.onrender.com/contacts', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -71,7 +71,7 @@ const Contacts = () => {
 
     const handleEditSubmit = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/contacts/${editingContact.id}`, {
+            const response = await fetch(`https://ishanisudur-api.onrender.com/contacts/${editingContact.id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -96,7 +96,7 @@ const Contacts = () => {
 
         if (confirmDelete) {
             try {
-                const response = await fetch(`http://localhost:5000/contacts/${id}`, {
+                const response = await fetch(`https://ishanisudur-api.onrender.com/contacts/${id}`, {
                     method: 'DELETE',
                 });
 
