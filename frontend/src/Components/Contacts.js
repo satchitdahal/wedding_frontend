@@ -52,7 +52,7 @@ const Contacts = () => {
                     phone_number: '',
                 });
             } else {
-                console.error('Failed to add contacts. Status:', response.status);
+                console.error('Failed to addS contacts. Status:', response.status);
             }
         } catch (error) {
             console.error('Error adding contact:', error);
