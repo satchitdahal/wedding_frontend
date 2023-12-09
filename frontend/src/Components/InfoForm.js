@@ -263,7 +263,7 @@ const InfoForm = () => {
         }
 
         try {
-            const response = await fetch('http://localhost:5000/address', {
+            const response = await fetch('https://ishanisudur-api.onrender.com/address', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
