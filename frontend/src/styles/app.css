@@ -25,6 +25,8 @@
 body {
     display: flex;
     height: 100vh;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(135deg,
             #aa4b6b, #6b6b83, #3b8d99, #571b2f)
 }
