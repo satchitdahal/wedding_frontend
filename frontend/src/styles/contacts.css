@@ -5,6 +5,8 @@
     box-sizing: border-box;
     border-color: aquamarine;
     margin-left: auto;
+    margin-top: 10em;
+
 
 }
 
@@ -36,11 +38,20 @@ dialog {
     /* Enable vertical scroll when content exceeds the container height */
     border: 1px solid #ddd;
     /* Optional: Add a border for better visibility */
-    padding: 1em;
+    padding: 3em;
 }
 
 /* Optional: Style for the table */
 .contact_table table {
+    /* display: flex; */
+
     width: 100%;
     border-collapse: collapse;
+    /* justify-content: center; */
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px;
 }

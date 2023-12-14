@@ -5,6 +5,7 @@ dialog {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
     /* Greyed-out background */
 }
 
@@ -16,6 +17,7 @@ dialog {
     background: white;
     padding: 20px;
     border-radius: 8px;
+
 }
 
 .address_table {
@@ -32,6 +34,8 @@ dialog {
 .address_table table {
     width: 100%;
     border-collapse: collapse;
+    /* border-spacing: 20px; */
+
 }
 
 .address {
@@ -41,5 +45,12 @@ dialog {
     box-sizing: border-box;
     border-color: aquamarine;
     margin-left: auto;
+    margin-top: 20em;
 
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px;
 }
