@@ -33,7 +33,7 @@
 
 .info_container {
     /* background-color: rgb(255, 255, 255, 0.5); */
-    background: url("./wed_pat.png"), rgb(187, 21, 21);
+    background: url("./wed_pat.png"), rgb(158, 12, 12);
     background-repeat: repeat;
     background-position: top;
     background-blend-mode: multiply;
@@ -55,7 +55,7 @@
 h1 {
     font-size: 30px;
     text-align: center;
-    color: rgb(250, 187, 70);
+    color: rgb(253, 168, 9);
     font-weight: 800;
 }
 
@@ -64,7 +64,7 @@ p {
     margin: auto;
     width: 100%;
     text-align: center;
-    color: rgb(236, 189, 102);
+    color: rgb(253, 168, 9);
     font-size: 14px;
     font-weight: 600;
 
@@ -85,7 +85,7 @@ form {
 }
 
 label {
-    color: rgb(243, 192, 97);
+    color: rgb(253, 168, 9);
     font-weight: 600;
     font-size: 14px;
 
@@ -102,7 +102,7 @@ input {
 
 input:focus {
     outline: none;
-    border-color: rgb(240, 188, 91);
+    border-color: rgb(253, 168, 9);
 }
 
 .info_btn {
