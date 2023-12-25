@@ -1,11 +1,12 @@
 .contacts {
     display: flex;
+
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     border-color: aquamarine;
     margin-left: auto;
-    margin-top: 5em;
+    margin-top: 10em;
     /* margin-top: 10em; */
 
 
@@ -40,6 +41,7 @@ dialog {
     border: 1px solid #ddd;
     /* Optional: Add a border for better visibility */
     padding: 3em;
+    background-color: wheat;
 }
 
 /* Optional: Style for the table */
@@ -63,4 +65,12 @@ th,
 td {
     padding: 10px;
     border: 1px;
+}
+
+.contacts h2 {
+    font-weight: 800;
+    color: wheat;
+
+
+
 }
