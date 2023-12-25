@@ -28,6 +28,7 @@ dialog {
     border: 1px solid #ddd;
     /* Optional: Add a border for better visibility */
     padding: 1em;
+    margin-bottom: 2em;
 }
 
 /* Optional: Style for the table */
@@ -45,12 +46,25 @@ dialog {
     box-sizing: border-box;
     border-color: aquamarine;
     margin-left: auto;
-    margin-top: 20em;
+    margin-top: 5em;
+
 
 }
 
-th,
+.address-form {
+    margin: 2em;
+}
+
+
+th {
+    padding: 10px;
+    border: 1px;
+    font-weight: 600;
+}
+
 td {
     padding: 10px;
     border: 1px;
+    font-weight: 500;
+
 }

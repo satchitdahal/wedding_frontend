@@ -24,17 +24,25 @@
 
 body {
     display: flex;
-    height: 100vh;
     align-items: center;
+    /* height: 100%; */
+    height: 100vh;
     justify-content: center;
-    background: linear-gradient(135deg,
-            #aa4b6b, #6b6b83, #3b8d99, #571b2f)
+    background: url("./wedding_pattern.png");
+    background-repeat: repeat;
+    background-position: center;
+    /* background: linear-gradient(135deg,
+            #aa4b6b, #6b6b83, #3b8d99, #571b2f);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;
+    /* margin-top: 30%; */
 
 }

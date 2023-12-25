@@ -176,7 +176,7 @@ const Address = () => {
             )}
 
             <h2>Add Address</h2>
-            <form onSubmit={handleSubmit}>
+            <form className="address-form" onSubmit={handleSubmit}>
                 <table>
                     <tbody>
                         <tr>

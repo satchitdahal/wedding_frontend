@@ -32,7 +32,7 @@
 } */
 
 .info_container {
-    background-color: rgb(243, 240, 235);
+    background-color: rgb(255, 255, 255);
     width: 90%;
     min-width: 420px;
     padding: 35px 50px;
@@ -52,6 +52,7 @@ h1 {
     font-size: 30px;
     text-align: center;
     color: #1c093c;
+    font-weight: 700;
 }
 
 p {
@@ -80,7 +81,8 @@ form {
 }
 
 label {
-    color: #606060;
+    color: #3d3d3d;
+    font-weight: 600;
     font-size: 14px;
 
 }
@@ -99,7 +101,7 @@ input:focus {
     border-color: #6f6df4;
 }
 
-button {
+.info_btn {
     border: none;
     padding: 10px 20px;
     background: linear-gradient(130deg,

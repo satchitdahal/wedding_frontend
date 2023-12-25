@@ -171,8 +171,8 @@ const Contacts = () => {
             }
 
 
-            <h2>Add Contact</h2>
-            <table>
+            <h2 className='h'>Add Contact</h2>
+            <table className='add_contacts'>
                 <thead>
                     <tr>
                         <th>First Name</th>

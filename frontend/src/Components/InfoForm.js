@@ -385,7 +385,7 @@ const InfoForm = () => {
                             </div>
                         </div>
                         {/* Submit button */}
-                        <button type="submit">Submit</button>
+                        <button className="info_btn" type="submit">Submit</button>
                     </form>
                 </div>
             )}

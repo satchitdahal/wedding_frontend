@@ -123,6 +123,7 @@
 // export default Login;
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "../styles/login.css"
 
 const Login = ({ onLogin }) => {
     const [username, setUsername] = useState("");
@@ -155,17 +156,18 @@ const Login = ({ onLogin }) => {
 
     return (
         <div className="login">
-            <h2>Login</h2>
+            {/* <h2>login</h2> */}
             {errorMessage && <p>{errorMessage}</p>}
-            <form>
+            <form className="login_form">
                 <table>
                     <tbody>
                         <tr>
                             <td>
-                                <label>Username:</label>
+                                {/* <label>Username</label> */}
                             </td>
                             <td>
                                 <input
+                                    placeholder="username"
                                     type="text"
                                     value={username}
                                     onChange={(e) => setUsername(e.target.value)}
@@ -174,10 +176,11 @@ const Login = ({ onLogin }) => {
                         </tr>
                         <tr>
                             <td>
-                                <label>Password:</label>
+                                {/* <label>Password</label> */}
                             </td>
                             <td>
                                 <input
+                                    placeholder="password"
                                     type="password"
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
@@ -187,8 +190,8 @@ const Login = ({ onLogin }) => {
                     </tbody>
                 </table>
                 <br />
-                <button type="button" onClick={handleLogin}>
-                    Login
+                <button className="login_btn" type="button" onClick={handleLogin}>
+                    login
                 </button>
             </form>
         </div>

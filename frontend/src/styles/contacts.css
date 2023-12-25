@@ -5,7 +5,8 @@
     box-sizing: border-box;
     border-color: aquamarine;
     margin-left: auto;
-    margin-top: 10em;
+    margin-top: 5em;
+    /* margin-top: 10em; */
 
 
 }
@@ -49,6 +50,14 @@ dialog {
     border-collapse: collapse;
     /* justify-content: center; */
 }
+
+.h {
+    margin-top: 1em;
+    margin-bottom: auto;
+    font-weight: 600;
+}
+
+
 
 th,
 td {
