@@ -1880,7 +1880,7 @@ const Rsvp = () => {
                                                     checked={editTwo}
                                                     onChange={(e) => setEditTwo(e.target.checked)}
                                                 />
-                                                <label htmlFor="editTwo">Two</label>
+                                                <label htmlFor="editTwo">Twoo</label>
                                             </div>
                                             <button onClick={() => handleSaveEdit(member.member_id)}>Save</button>
                                         </div>
